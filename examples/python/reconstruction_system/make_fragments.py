@@ -20,6 +20,8 @@ from open3d_example import *
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from optimize_posegraph import optimize_posegraph_for_fragment
+from read_rgbd_image import read_rgbd_image
+
 
 # check opencv python package
 with_opencv = initialize_opencv()

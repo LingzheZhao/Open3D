@@ -20,6 +20,8 @@ from open3d_example import *
 sys.path.append(".")
 from initialize_config import *
 from make_fragments import *
+from read_rgbd_image import read_rgbd_image
+
 
 # test wide baseline matching
 if __name__ == "__main__":

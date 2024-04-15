@@ -16,6 +16,7 @@ pyexample_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(pyexample_path)
 
 from open3d_example import *
+from read_rgbd_image import read_rgbd_image
 
 
 def scalable_integrate_rgb_frames(path_dataset, intrinsic, config):

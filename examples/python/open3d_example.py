@@ -210,7 +210,8 @@ def get_rgbd_file_lists(path_dataset):
     path_color, path_depth = get_rgbd_folders(path_dataset)
     color_files = get_file_list(path_color, ".jpg") + \
             get_file_list(path_color, ".png")
-    depth_files = get_file_list(path_depth, ".png")
+    depth_files = get_file_list(path_depth, ".png") + \
+            get_file_list(path_depth, ".exr")
     return color_files, depth_files
 
 
